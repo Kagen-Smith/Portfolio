@@ -1,6 +1,45 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
-import './index.css'
+import ReactDOM from 'react-dom/client';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
-ReactDOM.createRoot(document.getElementById('root')).render(<App />);
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import './index.css';
+import './App.css';
+
+
+import App from './App';
+import AboutMe from './components/pages/AboutMe';
+import Portfolio from './components/pages/Portfolio';
+import ContactMe from './components/pages/ContactMe';
+import Resume from './components/pages/Resume';
+
+
+const router = createBrowserRouter([
+  {
+    path: '/',
+    element: <App />,
+    children: [
+      {
+        index: true,
+        element: <AboutMe />,
+      },
+      {
+        path: 'portfolio',
+        element: <Portfolio />,
+      },
+      {
+        path: 'contact',
+        element: <ContactMe />,
+      },
+      {
+        path: 'resume',
+        element: <Resume />,
+      }
+    ],
+  },
+]);
+
+// Render the RouterProvider component
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <RouterProvider router={router} />
+);

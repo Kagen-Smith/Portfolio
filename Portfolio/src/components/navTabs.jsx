@@ -1,50 +1,52 @@
+import { NavLink } from 'react-router-dom';
 import Navbar from './Navbar';
 
-
-export default function NavTabs() {
-    return (
-        <Navbar>
-      <ul className="nav nav-tabs" >
-        <li className="nav-item">
-          <a
-            href="#AboutMe"
-            onClick={() => handlePageChange('AboutMe')}
-            className={currentPage === 'AboutMe' ? 'nav-link active' : 'nav-link'}
-          >
-            About Me
-          </a>
-        </li>
-        <li className="nav-item">
-          <a
-            href="#Portfolio"
-            onClick={() => handlePageChange('Portfolio')}
-            className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}
-          >
-            Portfolio
-          </a>
-        </li>
-        <li className="nav-item">
-          <a
-            href="#ContactMe"
-            onClick={() => handlePageChange('ContactMe')}
-            className={currentPage === 'ContactMe' ? 'nav-link active' : 'nav-link'}
-          >
-            Contact Me
-          </a>
-        </li>
-        <li className="nav-item">
-          <a
-            href="#Resume"
-            onClick={() => handlePageChange('Resume')}
-            className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
-          >
-            Resume
-          </a>
-        </li>
-      </ul>
-      </Navbar>
-    );
-  }
-
+export default function Nav() {
   
- 
+  return (
+    <Navbar
+      links={[
+        <NavLink 
+        key={1} 
+        className="nav-link" 
+        to="/" 
+        style={({ isActive }) => ({
+          color: isActive ? 'var(--accent-color)' : 'var(--background-color)', 
+        })}
+        >
+          About Me
+        </NavLink>,
+        <NavLink 
+        key={2} 
+        className="nav-link" 
+        to="/Portfolio"
+        style={({ isActive }) => ({
+          color: isActive ? 'var(--accent-color)' : 'var(--background-color)', 
+        })}
+        >
+          Portfolio
+        </NavLink>,
+        <NavLink 
+        key={3} 
+        className="nav-link" 
+        to="/contact"
+        style={({ isActive }) => ({
+          color: isActive ? 'var(--accent-color)' : 'var(--background-color)', 
+        })}
+        >
+        Contact
+      </NavLink>,
+      <NavLink 
+        key={4} 
+        className="nav-link" 
+        to="/Resume"
+        style={({ isActive }) => ({
+          color: isActive ? 'var(--accent-color)' : 'var(--background-color)', 
+        })}
+        >
+        Resume
+      </NavLink>,
+      ]}
+    />
+  );
+}

@@ -1,11 +1,12 @@
 import Name from './name';
-import Navbar from './Navbar';
+import NavTabs from './Navtabs';
+
 
 export default function Header() { 
     return (
         <header>
             <Name />
-            <Navbar />
+            <NavTabs />
         </header>
-    );
+    )
 }

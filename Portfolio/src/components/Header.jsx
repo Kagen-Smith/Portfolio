@@ -1,11 +1,11 @@
 import Name from './name';
-import Nav from './Nav';
+import Navbar from './Navbar';
 
 export default function Header() { 
     return (
         <header>
             <Name />
-            <Nav />
+            <Navbar />
         </header>
     );
 }

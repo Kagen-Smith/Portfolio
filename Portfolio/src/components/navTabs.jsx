@@ -1,9 +1,9 @@
+import Navbar from './Navbar';
 
 
-
-function NavTabs({ currentPage, handlePageChange }) {
+export default function NavTabs() {
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-light">
+        <Navbar>
       <ul className="nav nav-tabs" >
         <li className="nav-item">
           <a
@@ -42,9 +42,9 @@ function NavTabs({ currentPage, handlePageChange }) {
           </a>
         </li>
       </ul>
-      </nav>
+      </Navbar>
     );
   }
 
   
-  export default NavTabs;
+ 

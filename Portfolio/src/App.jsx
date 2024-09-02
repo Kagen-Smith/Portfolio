@@ -1,12 +1,6 @@
-import { useState } from 'react'
-import './App.css'
+import PortfolioContainer from "./components/portfolioContainer";
 
-function App() {
+const App = () => <PortfolioContainer />;
 
 
-  return (
-    
-  )
-}
-
-export default App
+export default App;

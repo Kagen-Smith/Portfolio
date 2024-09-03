@@ -1,7 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithub, faTwitter } from '@fortawesome/free-brands-svg-icons'; // Added missing imports
-import '/Users/kagensmith/Desktop/bootcamp/Portfolio/src/components/styles/footer.css';
+import '/./src/components/styles/footer.css';
 
 const styles = {
     footer: {

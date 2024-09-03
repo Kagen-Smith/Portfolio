@@ -1,6 +1,6 @@
-import Name from '/Users/kagensmith/Desktop/bootcamp/Portfolio/src/components/Name.jsx';
-import NavTabs from '/Users/kagensmith/Desktop/bootcamp/Portfolio/src/components/NavTabs.jsx';
-import "/Users/kagensmith/Desktop/bootcamp/Portfolio/src/components/styles/header.css";
+import Name from '.././components/Name.jsx';
+import NavTabs from '/./src/components/NavTabs.jsx';
+import "/./src/components/styles/header.css";
 
 const styles = {
     header: {

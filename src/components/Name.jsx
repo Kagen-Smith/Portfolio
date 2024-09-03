@@ -1,5 +1,5 @@
 import React from 'react';
-import '/Users/kagensmith/Desktop/bootcamp/Portfolio/src/components/styles/name.css';
+import '/./src/components/styles/name.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const styles = {

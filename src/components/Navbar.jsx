@@ -1,4 +1,4 @@
-import "/Users/kagensmith/Desktop/bootcamp/Portfolio/src/components/styles/navbar.css"
+import "/./src/components/styles/navbar.css"
 
 export default function Navbar({ links }) {
     return (

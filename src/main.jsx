@@ -8,10 +8,10 @@ import './App.css';
 
 
 import App from './App.jsx';
-import AboutMe from '/Users/kagensmith/Desktop/bootcamp/Portfolio/src/components/pages/AboutMe.jsx';
-import Portfolio from '/Users/kagensmith/Desktop/bootcamp/Portfolio/src/components/pages/Portfolio.jsx';
-import ContactMe from '/Users/kagensmith/Desktop/bootcamp/Portfolio/src/components/pages/ContactMe.jsx';
-import Resume from '/Users/kagensmith/Desktop/bootcamp/Portfolio/src/components/pages/Resume.jsx';
+import AboutMe from './components/pages/AboutMe.jsx';
+import Portfolio from './components/pages/Portfolio.jsx';
+import ContactMe from './components/pages/ContactMe.jsx';
+import Resume from './components/pages/Resume.jsx';
 
 
 const router = createBrowserRouter([

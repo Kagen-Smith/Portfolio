@@ -4,7 +4,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import '/Users/kagensmith/Desktop/bootcamp/Portfolio/src/index.css';
-import './Users/kagensmith/Desktop/bootcamp/Portfolio/src/App.css';
+import '/Users/kagensmith/Desktop/bootcamp/Portfolio/src/App.css';
 
 
 import App from '/Users/kagensmith/Desktop/bootcamp/Portfolio/src/App.jsx';

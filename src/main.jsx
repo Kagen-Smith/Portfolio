@@ -1,6 +1,13 @@
 import ReactDOM from 'react-dom/client';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import App from '/Users/kagensmith/Desktop/bootcamp/Portfolio/src/App.jsx';
+
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import '/Users/kagensmith/Desktop/bootcamp/Portfolio/src/index.css';
+import './App.css';
+
+
+import App from './App.jsx';
 import AboutMe from '/Users/kagensmith/Desktop/bootcamp/Portfolio/src/components/pages/AboutMe.jsx';
 import Portfolio from '/Users/kagensmith/Desktop/bootcamp/Portfolio/src/components/pages/Portfolio.jsx';
 import ContactMe from '/Users/kagensmith/Desktop/bootcamp/Portfolio/src/components/pages/ContactMe.jsx';

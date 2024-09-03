@@ -1,5 +1,5 @@
-import '../styles/portfolio.css';
-import project1 from '/Users/kagensmith/Desktop/bootcamp/Portfolio/Portfolio/src/assets/project1.png'
+import '/Users/kagensmith/Desktop/bootcamp/Portfolio/src/components/styles/portfolio.css';
+import project1 from '/Users/kagensmith/Desktop/bootcamp/Portfolio/src/assets/project1.png'
 
 const styles = {
     image: { width: '200px', 

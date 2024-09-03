@@ -1,5 +1,5 @@
 import { NavLink } from 'react-router-dom';
-import Navbar from './Navbar';
+import Navbar from '/Users/kagensmith/Desktop/bootcamp/Portfolio/src/components/Navbar.jsx';
 
 export default function Nav() {
   

@@ -1,6 +1,6 @@
 import React,{ useState } from 'react';
-import { validateEmail, validateName, validateMessage } from '../../utils/helper';
-import '../styles/contactMe.css';
+import { validateEmail, validateName, validateMessage } from '/Users/kagensmith/Desktop/bootcamp/Portfolio/src/utils/helper.jsr';
+import '/Users/kagensmith/Desktop/bootcamp/Portfolio/src/components/styles/contactMe.css';
 
 
 const styles = {

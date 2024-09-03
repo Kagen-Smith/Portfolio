@@ -1,12 +1,5 @@
 import ReactDOM from 'react-dom/client';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap/dist/js/bootstrap.bundle.min.js';
-import '/Users/kagensmith/Desktop/bootcamp/Portfolio/src/index.css';
-import '/Users/kagensmith/Desktop/bootcamp/Portfolio/src/App.css';
-
-
 import App from '/Users/kagensmith/Desktop/bootcamp/Portfolio/src/App.jsx';
 import AboutMe from '/Users/kagensmith/Desktop/bootcamp/Portfolio/src/components/pages/AboutMe.jsx';
 import Portfolio from '/Users/kagensmith/Desktop/bootcamp/Portfolio/src/components/pages/Portfolio.jsx';

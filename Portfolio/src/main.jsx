@@ -8,10 +8,10 @@ import './App.css';
 
 
 import App from './App';
-import AboutMe from './components/pages/AboutMe';
-import Portfolio from './components/pages/Portfolio';
-import ContactMe from './components/pages/ContactMe';
-import Resume from './components/pages/Resume';
+import AboutMe from './components/pages/AboutMe.jsx';
+import Portfolio from './components/pages/Portfolio.jsx';
+import ContactMe from './components/pages/ContactMe.jsx';
+import Resume from './components/pages/Resume.jsx';
 
 
 const router = createBrowserRouter([

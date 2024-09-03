@@ -1,6 +1,6 @@
 import React from 'react';
-import avatar from '/Users/kagensmith/Desktop/bootcamp/Portfolio/src/assets/5696412C-4071-4876-97D1-C7FD705F084A_1_201_a.jpeg';
-import '/Users/kagensmith/Desktop/bootcamp/Portfolio/src/components/styles/aboutMe.css';
+import avatar from '/./src/assets/5696412C-4071-4876-97D1-C7FD705F084A_1_201_a.jpeg';
+import '/./src/components/styles/aboutMe.css';
 
 const styles = {
     aboutMe: {

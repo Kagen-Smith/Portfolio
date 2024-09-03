@@ -1,4 +1,4 @@
-import '/Users/kagensmith/Desktop/bootcamp/Portfolio/src/components/styles/resume.css';
+import '/./src/components/styles/resume.css';
 
 function Resume() {
     return [

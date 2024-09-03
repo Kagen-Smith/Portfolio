@@ -1,12 +1,14 @@
-  function Resume() {
+import '../styles/resume.css';
+
+function Resume() {
     return [
-        <div>
+        <section className="resume">
         <h1>Resume</h1>
         <div>
-            <h2>download my <a href="../../assets/Profile.pdf" download="Profile.pdf">resume</a></h2>
+            <h2 className="resume-link">download my <a href="../../assets/Profile.pdf" download="Profile.pdf">resume</a></h2>
         </div>
-            <h3>front end proficiencies:</h3>
-            <ul>
+            <h3 className="proficiencies">front end proficiencies:</h3>
+            <ul className="proficiency-list">
                 <li>HTML</li>
                 <li>CSS</li>
                 <li>JavaScript</li>
@@ -15,8 +17,8 @@
                 <li>React</li>
                 <li>Bootstrap</li>
             </ul>
-            <h3>Back-end Proficiencies:</h3>
-            <ul>
+            <h3 className="proficiencies">Back-end Proficiencies:</h3>
+            <ul className="proficiency-list">
                 <li>APIs</li>
                 <li>Node</li>
                 <li>Express</li>
@@ -25,7 +27,7 @@
                 <li>REST</li>
                 <li>GraphQL</li>
             </ul>
-        </div>
+        </section>
     ];
     
 }

@@ -1,7 +1,65 @@
-import { useState } from 'react';
+import React,{ useState } from 'react';
 import { validateEmail, validateName, validateMessage } from '../../utils/helper';
+import '../styles/contactMe.css';
 
 
+const styles = {
+    contactMe: {
+        backgroundColor: 'darkblue',
+        color: 'white',
+        display: 'flexgrow',
+        
+        
+        bottom: 0,
+        width: '100%',
+    },
+    container: {
+        textAlign: 'center',
+        display: 'flex',
+        flexDirection: 'column',
+        alignItems: 'center',
+        justifyContent: 'center',
+    },
+    image: {
+        width: '300px',
+        height: '300px',
+        borderRadius: '50%',
+    },
+    form: {
+        backgroundColor: 'gray',
+        color: 'white',
+        padding: '20px 0',
+        position: 'fixed',
+        bottom: 0,
+        width: '100%',
+    },
+    input: {
+        backgroundColor: 'gray',
+        color: 'white',
+        padding: '20px 0',
+        position: 'fixed',
+        bottom: 0,
+        width: '100%',
+    },
+    button: {
+        backgroundColor: 'gray',
+        color: 'white',
+        padding: '20px 0',
+        
+    },
+    errorText: {
+        backgroundColor: 'gray',
+        color: 'white',
+        padding: '20px 0',
+        position: 'fixed',
+        bottom: 0,
+        width: '100%',
+    },
+    box: {
+        display: 'flex',
+        flexDirection: 'column',
+    }
+};
 function ContactMe() {
     const [email, setEmail] = useState('');
     const [inputName, setInputName] = useState('');
@@ -45,38 +103,40 @@ function ContactMe() {
     }
 
     return (
-        <div>
+        <section>
             <h1>Contact Me</h1>
-            <form className="form">
+            <form style={styles.container}>
+                name:
                 <input
+                    
                     value={inputName}
                     name="name"
                     onChange={handleInputChange}
                     type="text"
-                    placeholder="name"
-                />
+                   
+                /> email address:
                 <input
                     value={email}
                     name="email"
                     onChange={handleInputChange}
                     type="email"
-                    placeholder="email"
-                />
+                  
+                /> message:
                 <textarea
                     value={message}
                     name="message"
                     onChange={handleInputChange}
                     type="text"
-                    placeholder="message"
+                    
                 />
-                <button type="button" onClick={handleFormSubmit}>Submit</button>
+                <button type="button" onClick={handleFormSubmit}style={styles.button} >Submit</button>
             </form>
             {errorMessage && (
                 <div>
                     <p className="error-text">{errorMessage}</p>
                 </div>
             )}
-        </div>
+            </section>
     );
 }
 

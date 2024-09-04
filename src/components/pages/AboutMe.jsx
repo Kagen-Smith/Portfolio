@@ -4,12 +4,12 @@ import '/./src/components/styles/aboutMe.css';
 
 const styles = {
     aboutMe: {
-        backgroundColor: 'gray',
+        backgroundColor: 'darkblue',
         color: 'white',
         padding: '20px 0',
-        position: 'fixed',
         bottom: 0,
         width: '100%',
+        position: 'relative',
     },
     container: {
         textAlign: 'center',

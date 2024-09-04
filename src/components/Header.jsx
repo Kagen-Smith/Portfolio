@@ -8,7 +8,7 @@ const styles = {
         backgroundSize: '35%',
         color: 'white',
         padding: '20px 0',
-        position: 'fixed',
+        position: 'relative',
         top: 0,
         width: '500%',
         height: 'auto',

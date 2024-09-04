@@ -24,10 +24,10 @@ export default function Navbar({ links }) {
             <span style={styles.nav} className="navbar-toggler-icon custom-navbar-toggler-icon"></span>
           </button>
     
-          <div style={styles.navbar} id="navbarSupportedContent">
+          <div id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                 {links.map((link, index) => (
-                    <li key={index} style={styles.navbar}>
+                    <li key={index}>
                     {link}
                     </li>
                 ))}

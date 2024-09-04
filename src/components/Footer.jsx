@@ -8,7 +8,7 @@ const styles = {
         backgroundColor: 'gray',
         color: 'white',
         padding: '20px 0',
-        position: 'fixed',
+        position: 'relative',
         bottom: 0,
         width: '100%',
     },

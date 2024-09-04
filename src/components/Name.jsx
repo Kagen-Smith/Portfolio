@@ -6,7 +6,7 @@ const styles = {
     name: {
     
         fontSize: '20px',
-        color: 'black',
+        color: 'white',
         fontFamily: 'Arial',
         fontWeight: 'bold',
         padding: '10px',

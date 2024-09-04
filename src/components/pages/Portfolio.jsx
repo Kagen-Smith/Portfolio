@@ -1,6 +1,6 @@
 import '/./src/components/styles/portfolio.css';
-import project1 from '/./src/assets/project1.png'
-
+import project1 from '/src/assets/project1.png'
+import project2 from '/src/assets/project2.png'
 const styles = {
     image: { width: '200px', 
             height: '200px'},
@@ -24,6 +24,13 @@ function Portfolio() {
             description: 'A website that can create a playlist from a preselceted list of songs.',
             link: 'https://kagen-smith.github.io/Project-01-Music-Wizard/',
             repo: 'https://github.com/Kagen-Smith/Project-01-Music-Wizard/'
+        },
+        {
+            name: 'README.md Generator',
+            image: project2,
+            description: 'this is a command line application that generates a README.md file for a project.',
+            instructionLink: 'https://www.youtube.com/watch?v=bfA92zXLDro',
+            repo: 'https://github.com/Kagen-Smith/nodejs-challenge/'
         },
   
     ]; 

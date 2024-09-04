@@ -1,3 +1,19 @@
 .footer {
     background-color: gray;
 }
+
+.github-link,
+.linkedin-link,
+.twitter-link {
+    color: white;
+    display: inline-block;
+    border-bottom: 5px solid transparent;
+    margin: 0 10px;
+}
+
+.github-link:hover,
+.linkedin-link:hover,
+.twitter-link:hover {
+    color: lightgrey;
+    border-bottom: 2px solid gray;
+}

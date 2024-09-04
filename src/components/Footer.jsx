@@ -28,7 +28,7 @@ export default function Footer() {
                 <div className="mb-2">
                     <a 
                         href="https://www.linkedin.com/in/kagen-smith/" 
-                        className="text-light me-3" 
+                        className="linkedin-link" 
                         aria-label="LinkedIn"
                         style={{ fontSize: '24px' }}
                         target='_blank'
@@ -38,7 +38,7 @@ export default function Footer() {
                     </a>
                     <a 
                         href="https://github.com/Kagen-Smith" 
-                        className="text-light me-3" 
+                        className="github-link" 
                         aria-label="GitHub"
                         style={{ fontSize: '24px' }}
                         target='_blank'
@@ -48,7 +48,7 @@ export default function Footer() {
                     </a>
                     <a 
                         href="https://twitter.com/KagenSmith" 
-                        className="text-light" 
+                        className="twitter-link" 
                         aria-label="Twitter"
                         style={{ fontSize: '24px' }}
                     >

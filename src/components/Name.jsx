@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './styles/Name.css';
+import '/src/components/styles/name.css';
 
 
 export default function Name() {

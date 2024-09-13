@@ -1,0 +1,56 @@
+.resume {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    background-color: lightgray;
+    animation: myAnim 0.75s ease 0s 1 normal forwards;
+}
+
+.resume h1 {
+    font-size: 2.5rem;
+    margin: 10px;
+
+}
+
+.resume h2 {
+    font-size: 2rem;
+    margin: 10px;
+    text-align: left;
+}
+
+.resume-link {
+    color: var(--primary-color);
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+
+.proficiencies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.proficiency-list {
+    list-style-type: none;
+    padding: 0;
+}
+@keyframes myAnim {
+    0% {
+      opacity: 0;
+      transform: translateX(-50px);
+    }
+  
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }

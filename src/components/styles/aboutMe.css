@@ -5,6 +5,7 @@
     align-items: center;
     background-color: lightgray;
     padding: 200px;
+    animation: myAnim 0.75s ease 0s 1 normal forwards;
 
 }
 .image {
@@ -20,6 +21,18 @@
 .about p {
     font-size: 1.5rem;
     margin: 10px;
+    text-align: left;
+}
+@keyframes myAnim {
+  0% {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 
 /* Small screens (mobile phones) */
@@ -39,4 +52,5 @@
     font-size: 1.3rem;
   }
 }
+
 

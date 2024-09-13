@@ -3,7 +3,7 @@
 /* Container for the entire portfolio section */
 .portfolio-section {
   padding: 3rem;
-  background-color: var(--background-color);
+  background-color: lightgray;
 }
 
 /* Title of the portfolio section */

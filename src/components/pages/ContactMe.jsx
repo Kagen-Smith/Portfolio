@@ -76,7 +76,7 @@ function ContactMe() {
                     className='form-control'
                     
                 />
-                <button type="button" className='btn btn-primary' onClick={handleFormSubmit} >Submit</button>
+                <button type="button" className='contact-form button' onClick={handleFormSubmit} >Submit</button>
             </form>
             {errorMessage && (
                 <div>

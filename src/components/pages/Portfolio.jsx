@@ -1,6 +1,8 @@
 import '/./src/components/styles/portfolio.css';
 import project1 from '/src/assets/project1.png'
 import project2 from '/src/assets/project2.png'
+import project3 from '/src/assets/project3.png'
+import project4 from '/src/assets/project4.png'
 import Project from '/src/components/pages/project.jsx'
 
 
@@ -21,6 +23,22 @@ const project = [
         deployedLink: 'https://youtu.be/bfA92zXLDro?si=d-1AhHKKNitTrjTT',
         githubLink: 'https://github.com/Kagen-Smith/nodejs-challenge/tree/main',
     },
+    {
+        id: 3,
+        image: project3,
+        title: 'Weather Dashboard',
+        deployedLink: 'https://servers-api-challenge.onrender.com/',
+        githubLink: 'https://github.com/Kagen-Smith/servers-api-challenge',
+    },
+    {
+        id: 4,
+        image: project4,
+        title: 'Employee Tracker',
+        deployedLink: 'https://youtu.be/a0ji-fyPMS8?si=l5TSXpZPk0UetVHE',
+        githubLink: 'https://github.com/Kagen-Smith/sql-project',
+
+
+    }
    
     // Add more projects as needed
 ];

@@ -1,0 +1,50 @@
+
+  
+ 
+  
+
+  
+
+  
+ 
+  
+ 
+  
+  
+  
+  
+  
+
+ 
+  
+  @keyframes myAnim {
+    0% {
+      opacity: 0;
+      transform: translateX(-50px);
+    }
+  
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  /* Small screens (mobile phones) */
+  @media (max-width: 575px) {
+    
+  }
+  
+  /* Medium screens (tablets) */
+  @media (min-width: 576px) and (max-width: 767px) {
+  
+  }
+  
+  /* Large screens (desktops) */
+  @media (min-width: 768px) and (max-width: 1199px) {
+    
+  }
+  
+  /* Extra large screens (large desktops) */
+  @media (min-width: 1200px) {
+    
+  }

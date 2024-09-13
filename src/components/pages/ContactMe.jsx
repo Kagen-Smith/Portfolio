@@ -1,65 +1,9 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { validateEmail, validateName, validateMessage } from '/./src/utils/helper.js';
 import '/./src/components/styles/contactMe.css';
 
 
-const styles = {
-    contactMe: {
-        backgroundColor: 'darkblue',
-        color: 'white',
-        display: 'flexgrow',
-        
-        
-        bottom: 0,
-        width: '100%',
-    },
-    container: {
-        textAlign: 'center',
-        display: 'flex',
-        flexDirection: 'column',
-        alignItems: 'center',
-        justifyContent: 'center',
-    },
-    image: {
-        width: '300px',
-        height: '300px',
-        borderRadius: '50%',
-    },
-    form: {
-        backgroundColor: 'gray',
-        color: 'white',
-        padding: '20px 0',
-        position: 'fixed',
-        bottom: 0,
-        width: '100%',
-    },
-    input: {
-        backgroundColor: 'gray',
-        color: 'white',
-        padding: '20px 0',
-        position: 'fixed',
-        bottom: 0,
-        width: '100%',
-    },
-    button: {
-        backgroundColor: 'gray',
-        color: 'white',
-        padding: '20px 0',
-        
-    },
-    errorText: {
-        backgroundColor: 'gray',
-        color: 'white',
-        padding: '20px 0',
-        position: 'fixed',
-        bottom: 0,
-        width: '100%',
-    },
-    box: {
-        display: 'flex',
-        flexDirection: 'column',
-    }
-};
+
 function ContactMe() {
     const [email, setEmail] = useState('');
     const [inputName, setInputName] = useState('');
@@ -103,9 +47,9 @@ function ContactMe() {
     }
 
     return (
-        <section>
+        <section className='contact-section'>
             <h1>Contact Me</h1>
-            <form style={styles.container}>
+            <form className='contact-form'>
                 name:
                 <input
                     
@@ -113,6 +57,7 @@ function ContactMe() {
                     name="name"
                     onChange={handleInputChange}
                     type="text"
+                    className='form-control'
                    
                 /> email address:
                 <input
@@ -120,6 +65,7 @@ function ContactMe() {
                     name="email"
                     onChange={handleInputChange}
                     type="email"
+                    className='form-control'
                   
                 /> message:
                 <textarea
@@ -127,13 +73,14 @@ function ContactMe() {
                     name="message"
                     onChange={handleInputChange}
                     type="text"
+                    className='form-control'
                     
                 />
-                <button type="button" onClick={handleFormSubmit}style={styles.button} >Submit</button>
+                <button type="button" className='btn btn-primary' onClick={handleFormSubmit} >Submit</button>
             </form>
             {errorMessage && (
                 <div>
-                    <p className="error-text">{errorMessage}</p>
+                    <p className="form-errors">{errorMessage}</p>
                 </div>
             )}
             </section>

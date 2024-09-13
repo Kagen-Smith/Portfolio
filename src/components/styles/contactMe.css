@@ -1,11 +1,78 @@
-contact-form textarea {
+/* Styles for the contact section, including padding and background color */
+.contact-section {
+  padding: 2rem;
+  background-color: lightgray;
+}
+
+/* Styles for the heading in the contact section, including animation */
+.contact-section h2 {
+  text-align: center;
+  margin-bottom: 3rem;
+  font-size: 2.5rem;
+  color: #333;
+  animation: myAnim 0.5s ease 0s 1 normal forwards;
+}
+
+/* Styles for the contact form container */
+.contact-form {
+  background-color: var(--muted-tertiary-color);
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 1.5rem 2rem 0.5rem 2rem;
+  border-radius: 1.5rem;
+  box-shadow: 0 0 10 rgba(0, 0, 0, 0.1);
+  animation: myAnim 0.75s ease 0s 1 normal forwards;
+}
+
+/* Margin styling for form groups */
+.contact-form .form-group {
+  margin-bottom: 1rem;
+}
+
+/* Styles for form labels */
+.contact-form label {
+  color: var(--background-color);
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+/* Styles for input fields and textareas */
+.contact-form input,
+.contact-form textarea {
   width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+}
+
+/* Styles for textarea to set height and resizing options */
+.contact-form textarea {
   height: 150px;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 16px;
   resize: vertical;
+}
+
+/* Styles for submit button, including background color and transition */
+.contact-form button {
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Override Bootstrap's .btn-primary styles */
+.btn-primary {
+  background-color: var(--accent-color) !important;
+  color: var(--text-color) !important;
+}
+
+/* Hover effect for the primary button */
+.btn-primary:hover {
+  background-color: #f7f4a8 !important;
+}
+
+/* Styles for form errors */
+.form-errors p {
+  color: var(--background-color) !important;
+  margin: 0.5rem 0;
 }

@@ -1,31 +1,15 @@
-import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithub, faTwitter } from '@fortawesome/free-brands-svg-icons'; // Added missing imports
 import '/./src/components/styles/footer.css';
 
-const styles = {
-    footer: {
-        backgroundColor: 'gray',
-        color: 'white',
-        padding: '20px 0',
-        position: 'relative',
-        bottom: 0,
-        width: '100%',
-    },
-    container: {
-        textAlign: 'center',
-    },
-    icon: {
-        fontSize: '24px',
-    },
-};
+
+
 
 export default function Footer() {
     return (
-        <footer style={styles.footer}>
-            <div className="container text-center">
-            
-                <div className="mb-2">
+        <footer className='footer'>
+            <div>
+                <div>
                     <a 
                         href="https://www.linkedin.com/in/kagen-smith/" 
                         className="linkedin-link" 
@@ -55,9 +39,7 @@ export default function Footer() {
                         <FontAwesomeIcon icon={faTwitter} />
                     </a>
                 </div>
-                
-             
-                <p className="mb-0">&copy; {new Date().getFullYear()} Kagen Smith. All rights reserved.</p>
+                <p className='copywrite'>&copy; {new Date().getFullYear()} Kagen Smith. All rights reserved.</p>
             </div>
         </footer>
     );

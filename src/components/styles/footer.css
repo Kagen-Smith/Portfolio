@@ -1,5 +1,13 @@
 .footer {
-    background-color: gray;
+    background-color: black;
+    padding: 10px 0;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    background-color: black;
+    position: relative;
+    width: 100%;
+    height: auto;
 }
 
 .github-link,
@@ -17,3 +25,44 @@
     color: lightgrey;
     border-bottom: 2px solid gray;
 }
+
+.copywrite {
+    color: white;
+    font-size: 0.8em;
+    margin: 10px 0;
+}
+@media (max-width: 575px) {
+    .footer  {
+      padding: 1.5rem;
+    }
+    .github-link,
+    .linkedin-link,
+    .twitter-link  {
+      grid-template-columns: 1fr;
+    }
+    .github-link:hover,
+    .linkedin-link:hover,
+    .twitter-link:hover {
+      font-size: 1.2rem;
+    }
+  }
+  
+  /* Medium screens (tablets) */
+  @media (min-width: 576px) and (max-width: 767px) {
+    .footer  {
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    }
+    .github-link:hover,
+    .linkedin-link:hover,
+    .twitter-link:hover {
+      font-size: 1.3rem;
+    }
+  }
+  
+  /* Large screens (desktops) */
+  @media (min-width: 768px) and (max-width: 1199px) {
+    .footer  {
+      grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    }
+  }
+  

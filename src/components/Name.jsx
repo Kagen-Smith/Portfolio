@@ -1,25 +1,14 @@
-import React from 'react';
-import '/./src/components/styles/name.css';
+import { Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './styles/Name.css';
 
-const styles = {
-    name: {
-    
-        fontSize: '20px',
-        color: 'white',
-        fontFamily: 'Arial',
-        fontWeight: 'bold',
-        padding: '10px',
-        margin: '10px',
-        backgroudColor: 'gray',
-    
-    },
-};
 
 export default function Name() {
     return (
-        <div style={styles.name}>
-            <h1>Kagen Smith</h1>
+        <div className="container-fluid name-background text-white p-3">
+            <Link to="/" className="text-white text-decoration-none">
+                <h1 className="mb-4 fs-custom-h1">Kagen Smith</h1>
+            </Link>
         </div>
     );
 }

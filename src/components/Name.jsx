@@ -7,7 +7,7 @@ export default function Name() {
     return (
         <div className="container-fluid name-background text-white p-3">
             <Link to="/" className="text-white text-decoration-none">
-                <h1 className="mb-4 fs-custom-h1">Kagen Smith</h1>
+                <h1 className="name">Kagen Smith</h1>
             </Link>
         </div>
     );

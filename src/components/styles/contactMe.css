@@ -3,7 +3,7 @@
   padding: 2rem;
   background-color: lightgray;
   padding: 280px;
-  animation: myAnim 0.75s ease 0s 1 normal forwards;
+  
 }
 
 
@@ -27,7 +27,7 @@
   border: 1px solid white;
   border-radius: 0.25rem;
   margin: 0.5rem 0;
-  animation: myAnim 0.75s ease 0s 1 normal forwards;
+  font-size: 1rem;
 }
 
 /* Styles for textarea to set height and resizing options */

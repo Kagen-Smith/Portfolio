@@ -3,6 +3,7 @@ import project1 from '/src/assets/project1.png'
 import project2 from '/src/assets/project2.png'
 import project3 from '/src/assets/project3.png'
 import project4 from '/src/assets/project4.png'
+import project5 from '/src/assets/project5.jpeg'
 import Project from '/src/components/pages/project.jsx'
 
 
@@ -38,6 +39,13 @@ const project = [
         githubLink: 'https://github.com/Kagen-Smith/sql-project',
 
 
+    },
+    {
+        id:5,
+        image: project5,
+        title: "ReadIt",
+        deployedLink: 'https://readit-pngn.onrender.com',
+        githubLink: 'https://github.com/Kagen-Smith/ReadIt',
     }
    
     // Add more projects as needed

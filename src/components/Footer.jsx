@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLinkedin, faGithub, faTwitter } from '@fortawesome/free-brands-svg-icons'; // Added missing imports
+import { faLinkedin, faGithub, faBluesky } from '@fortawesome/free-brands-svg-icons'; // Added missing imports
 import '/./src/components/styles/footer.css';
 
 
@@ -31,12 +31,12 @@ export default function Footer() {
                         <FontAwesomeIcon icon={faGithub} />
                     </a>
                     <a 
-                        href="https://twitter.com/KagenSmith" 
+                        href="https://bsky.app/profile/psychocontent.bsky.social" 
                         className="twitter-link" 
-                        aria-label="Twitter"
+                        aria-label="bluesky"
                         style={{ fontSize: '24px' }}
                     >
-                        <FontAwesomeIcon icon={faTwitter} />
+                        <FontAwesomeIcon icon={faBluesky} />
                     </a>
                 </div>
                 <p className='copywrite'>&copy; {new Date().getFullYear()} Kagen Smith. All rights reserved.</p>

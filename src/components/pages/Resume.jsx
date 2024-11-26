@@ -7,7 +7,7 @@ function Resume() {
         <section className="resume" key="resume-section"> 
         <h1 className='resume h1'>Resume</h1>
         <div>
-            <h2 className="resume-link">download my <a href="../../assets/resume.pdf" download="resume.pdf">resume</a></h2>
+            <h2 className="resume-link">download my <a href="../../assets/resume" download="resume.pdf">resume</a></h2>
         </div>
         <div>
             <h3 className="proficiencies">front end proficiencies:</h3>

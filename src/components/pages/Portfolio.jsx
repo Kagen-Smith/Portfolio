@@ -4,6 +4,7 @@ import project2 from '/src/assets/project2.png'
 import project3 from '/src/assets/project3.png'
 import project4 from '/src/assets/project4.png'
 import project5 from '/src/assets/project5.jpeg'
+import project6 from '/src/assets/project6.jpeg'
 import Project from '/src/components/pages/project.jsx'
 
 
@@ -46,6 +47,13 @@ const project = [
         title: "ReadIt",
         deployedLink: 'https://readit-pngn.onrender.com',
         githubLink: 'https://github.com/Kagen-Smith/ReadIt',
+    },
+    {
+        id:6,
+        image: project6,
+        title: "MadLibs",
+        deployedLink: 'https://project-3-madlibs.onrender.com',
+        githubLink: 'https://github.com/Kagen-Smith/project-3-madlibs',
     }
    
     // Add more projects as needed

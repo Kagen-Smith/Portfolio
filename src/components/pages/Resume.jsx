@@ -3,11 +3,20 @@ import '/./src/components/styles/resume.css';
 
 
 function Resume() {
-    return [
+    const onButtonClick = () => {
+        const pdfURL = '/assets/Resume copy.pdf';
+        const link = document.createElement('a');
+        link.href = pdfURL;
+        link.download = "Resume copy.pdf";
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+    };
+    return (
         <section className="resume" key="resume-section"> 
         <h1 className='resume h1'>Resume</h1>
         <div>
-            <h2 className="resume-link">download my <a href="../assets/Resume copy.pdf" download="Resume copy.pdf">resume</a></h2>
+            <button className="resume-button" onClick={onButtonClick}>Download Resume</button>
         </div>
         <div>
             <h3 className="proficiencies">front end proficiencies:</h3>
@@ -48,7 +57,7 @@ function Resume() {
                 </ul>
                 </div>
         </section>
-    ];
+    );
     
 }
      

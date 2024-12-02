@@ -1,5 +1,5 @@
 import '/./src/components/styles/resume.css';
-import '../../assets/Resume.pdf'
+import '../../assets/resume-8zclmemg.pdf'
 
 
 function Resume() {
@@ -11,8 +11,8 @@ function Resume() {
             <h3>Download</h3>
             <p>My resume:</p>
             <a 
-            href="src/assets/Resume.pdf"
-            download = "Resume.pdf"
+            href="src/assets/resume-8zclmemg.pdf"
+            download = "resume-8zclmemg.pdf"
             >Download</a>
         </div>
         <div>

@@ -3,20 +3,17 @@ import '/./src/components/styles/resume.css';
 
 
 function Resume() {
-    const onButtonClick = () => {
-        const pdfURL = '/assets/Resume copy.pdf';
-        const link = document.createElement('a');
-        link.href = pdfURL;
-        link.download = "Resume copy.pdf";
-        document.body.appendChild(link);
-        link.click();
-        document.body.removeChild(link);
-    };
+
     return (
         <section className="resume" key="resume-section"> 
         <h1 className='resume h1'>Resume</h1>
         <div>
-            <button className="resume-button" onClick={onButtonClick}>Download Resume</button>
+            <h3>Download</h3>
+            <p>My resume:</p>
+            <a 
+            href="../assets/Resume-copy.pdf"
+            download = "Resume-copy.pdf"
+            >Download</a>
         </div>
         <div>
             <h3 className="proficiencies">front end proficiencies:</h3>
@@ -26,7 +23,11 @@ function Resume() {
                 <li key="js">JavaScript</li> 
                 <li key="jquery">jQuery</li> 
                 <li key="responsive-design">responsive design</li> 
-                <li key="react">React</li>
+                <li key="react">React.js</li>
+                <li key="bootstrap">Bootstrap</li>
+                <li key="web-apis">Web APIs</li>
+                <li key="ajax">AJAX</li>
+                <li key="typescript">TypeScript</li>
             </ul>
             </div>
             <div>
@@ -34,10 +35,18 @@ function Resume() {
             <ul className="proficiency-list">
                 <li key="node">Node.js</li> 
                 <li key="express">Express</li> 
-                <li key="mysql">MySQL, Sequelize</li> 
+                <li key="sql">SQL, Sequelize</li> 
                 <li key="mongodb">MongoDB, Mongoose</li> 
                 <li key="rest">REST APIs</li> 
                 <li key="graphql">GraphQL</li> 
+                <li key="apollo">Apollo Server</li>
+                <li key="authentication">JWT</li>
+                <li key="bcrypt">bcrypt</li>
+                <li key="graphQL">GraphQL</li>
+                <li key="postgresql">PostgreSQL</li>
+                <li key="noSQL">NoSQL</li>
+                <li key="API">APIs</li>
+
             </ul>
             </div>
             <div>
@@ -54,6 +63,13 @@ function Resume() {
                 <li key="prompt">Prompt engineering</li>
                 <li key="VSC">Visual Studio Code</li>
                 <li key="command-line">command-line</li>
+                <li key="testing">testing</li>
+                <li key="debugging">debugging</li>
+                <li key="continuous-integration">continuous integration</li>
+                <li key="continuous-deployment">continuous deployment</li>
+                <li key="prompt engineering">prompt engineering</li>
+                <li key="agile methodologies">agile methodologies</li>
+                <li key="responsive design">responsive design</li>
                 </ul>
                 </div>
         </section>

@@ -11,7 +11,7 @@ function Resume() {
             <h3>Download</h3>
             <p>My resume:</p>
             <a 
-            href="../assets/Resume-copy.pdf"
+            href="src/assets/Resume-copy.pdf"
             download = "Resume-copy.pdf"
             >Download</a>
         </div>

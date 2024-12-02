@@ -1,5 +1,5 @@
 import '/./src/components/styles/resume.css';
-import '../../assets/resume-8zclmemg.pdf'
+import '../../assets/Resume.pdf'
 
 
 function Resume() {

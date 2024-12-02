@@ -1,6 +1,6 @@
 .header {
     display: flex;
-    background: url(src/assets/sky.jpeg);
+    background: url(src/assets/skybackground.jpeg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
